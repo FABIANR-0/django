@@ -5,6 +5,7 @@ class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model =  Patient
         fields = '__all__'
+        ##fields = ['first_name']
 
 class InsuranceSerializer(serializers.ModelSerializer):
     class Meta:

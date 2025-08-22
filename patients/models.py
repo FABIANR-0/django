@@ -1,7 +1,7 @@
 from django.db import models
 
 class Patient(models.Model):
-    fisrt_name = models.CharField(max_length=100)
+    first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     date_of_birth = models.DateField()
     contact_number = models.CharField(max_length=15)
